@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  border: 1px solid blue;
+  color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+h1 {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+}
+h3 {
+  text-align: center;
+}
+p span {
+  color: black;
+  font-weight: 800;
+}
+button {
+  margin: 20px;
+}
+#loading {
+  display: block;
+  font-size: 36px;
+  margin-top: 300px;
+}
+#main {
+  display: none;
+}
+#name,
+#team,
+#price,
+#type {
+  color: gray;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+#imageDiv {
+  display: flex;
+  width: 210px;
+  height: 210px;
+  justify-content: center;
+}
+#buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#playerCard {
+  display: flex;
+  justify-self: center;
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#playerDetails {
+  text-align: left;
+  border-left: 2px solid black;
+  padding-top: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
