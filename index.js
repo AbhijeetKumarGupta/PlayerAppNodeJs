@@ -12,7 +12,7 @@ $(document).ready(function () {
   var buttonNext = $("#buttonNext");
   var buttonPrev = $("#buttonPrev");
 
-  $.get("https://cricplayerapi.herokuapp.com/players", function (response) {
+  $.get("https://cricplayerapi.onrender.com/players", function (response) {
     $("#loading").css("display", "none");
     $("#main").css("display", "unset");
     console.log(response);
